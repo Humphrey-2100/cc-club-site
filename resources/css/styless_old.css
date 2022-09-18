@@ -1,0 +1,203 @@
+/* Site Stylesheet
+  0. Setup/Reset
+  1. Global Styles
+  2. Typography Styles
+  3. Structure Styles
+  4. Module Styles
+  5. Component Styles
+======================================== */
+
+
+/* 0. Setup/Reset
+======================================== */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* 1. Global Styles
+======================================== */
+
+
+/* 2. Typography Styles
+======================================== */
+h1 {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 4.5rem;
+	font-weight: 700;
+}
+h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 2rem;
+	font-weight: 700;
+}
+h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 2rem;
+	font-weight: 700;
+	text-align: center;
+}
+body {
+	max-width: 57em;
+	margin: auto;
+	font-family: "Roboto", san-serif;
+}
+
+/* 3. Structure Styles
+======================================== */
+
+
+/* 4. Module Styles
+======================================== */
+
+nav {
+	background-color: #38ab5d;
+	padding: .5rem;
+}
+nav ul {
+	text-align: right;
+	/* padding: 1rem, 0; */
+}
+nav li {
+	display: inline;
+	color: white;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: 500;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+nav a:link, a:visited {
+	color: white;
+	text-decoration: none;
+}
+nav a:hover {
+	color: yellow;
+}
+
+#showcase{
+	background-image:url('../img/cover-image.jpg');
+	background-size:cover;
+	background-position:center;
+	height:100vh;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	text-align:center;
+	padding:0 20px;
+  }
+
+.splash {
+	/* display: flex; */
+    /* flex-direction: column; */
+	/* height: 99vh; */
+	/* background-image: url('../img/ts9.png');
+	background-repeat: no-repeat;
+	background-size: 43%;
+	background-position-x: right; */
+	padding-left: 2rem;
+	/* border: 1px solid blue; */
+}
+.splash-text {
+	display: flex;
+	flex-direction: column;
+	max-width: 50%;
+	/* padding: 2rem; */
+	/* border: 1px solid red; */
+}
+.splash h1 {
+	padding: 0 0 .7rem 0;
+	/* border: 1px solid blue; */
+}
+.splash li {
+	padding: 0 0 .7rem 0rem;;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 2rem;
+	font-weight: 700;
+	/* border: 1px blue; */
+}
+.splash p {
+	font-size: 1.27rem;
+	padding-bottom: .7rem;
+	/* border: 1px solid blue; */
+}
+.splash h2 {
+	font-size: 2rem;
+	padding-top: 1.27rem;
+	color: #38ab5d;
+}
+
+.features {
+	display: flex;
+	justify-content: space-between;
+	max-width: 57em;
+	padding: 3rem 0 3rem 0;
+	/* border: 1px solid red; */
+}
+
+
+.card {
+	/* display: flex; */
+	/* flex-direction: row; */
+	max-width: 247px;
+	padding: 1rem;
+	background-color: #38ab5d;
+	border: 1px solid #8ffab1;
+}
+.card h3 {
+	padding-bottom: 1rem;
+	color: white;
+}
+.card p{
+	font-size: 1.27rem;
+	color: #8ffab1;
+}
+.card img {
+	max-width: 100%;
+	padding-bottom: 1rem;
+}
+
+
+/* 5. Component Styles
+======================================== */
+
